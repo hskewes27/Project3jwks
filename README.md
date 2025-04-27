@@ -27,6 +27,9 @@ Invoke-WebRequest -Uri "http://127.0.0.1:8080/auth" `
 >>     -Body '{"username": "testusr", "password": "Generated password"}'
 
 After putting in the generated password from the register request it should be good to use and the user will be authorized.
+I also had to edit the rate limit from being 1 second to 3 seconds because I was having issues getting those final points even
+though my logs said I was able to get a 429 error with the amount of requests coming through. With a 1 second window I was getting 
+65/90, but then I switched it to 3 and got 90/90 so I will be sticking with that.
 At this point I would usually run the gradebot against it in that same powershell cli
 ./gradebot.
 I was able to implement 90/90 points 
