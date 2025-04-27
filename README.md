@@ -10,6 +10,13 @@ Each major process has logging features and certain debug logs as well since I h
 getting the correct data type when encrypting and decrypting from the database. I also figured out my issue in the last project
 It likely stemmed from not being in a venv and some of my other code messing with my current project.
 
+Prompts I used through copilot and gemini to help me get this code:
+-How do you implement aes encryption in python?
+-How should I go about making a post register endpoint that accepts a username and email
+-What does generating a uuidv4 password look like in python?
+-what data type does a blob take
+-how should i encode a string into blob data type // I should've asked this last project lol
+
 using the code:
 So after starting open a second window to run powershell commands to register and authorize a user.
 The commands looked like this:
