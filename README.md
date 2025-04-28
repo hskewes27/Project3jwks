@@ -9,6 +9,8 @@ the server will then log that keys have been made and that the server is running
 Each major process has logging features and certain debug logs as well since I had so many issues with
 getting the correct data type when encrypting and decrypting from the database. I also figured out my issue in the last project
 It likely stemmed from not being in a venv and some of my other code messing with my current project.
+I neglected to use a testing suite here again like last time opting to use logging for my testing process.
+Comments are left on all important features and the program is linted for flake8 it just doesn't meet the line length requirements.
 
 Prompts I used through copilot and gemini to help me get this code:
 -How do you implement aes encryption in python?
